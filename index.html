@@ -1,0 +1,47 @@
+<html>
+<body>
+	<h3>Titanic Prediction Form</h3>
+
+<div>
+<form action="/result" method="POST">
+	<label for="age">Age</label>
+	<input type="text" id="age" name="age">
+	<br>
+	<label for="P_class">Passenger Class</label>
+	<select id="P_class" name="P_class">
+	<option value="1">First-Class</option>
+	<option value="2">Second-Class</option>
+	<option value="3">Third-Class</option>
+	</select>
+	<br>
+
+	<label for="Ebarked">Starting Point of Journey</label>
+	<select id="Embarked" name="Starting Point">
+	<option value="0">S</option>
+	<option value="1">C</option>
+	<option value="2">Q</option>
+	</select>
+	<br>
+	<label for="SibSp"> Siblings or spouses</label>
+	<select id="SibSp" name="SibSp">
+	<option value="0">No Siblings or spouse</option>
+	<option value="1">Siblings or spouse</option>
+	</select>
+	<br>
+	<label for="Parch">Parents or Children</label>
+	<select id="Parch" name="Parch">
+	<option value="0">No Parents or Children</option>
+	<option value="1">Parents or Children</option>
+	</select>
+	<br>
+	<label for="Sex">Gender</label>
+	<select id="Sex" name="Sex">
+	<option value="0">Male</option>
+	<option value="1">Female</option>
+	</select>
+	<br>
+<input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
